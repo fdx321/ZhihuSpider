@@ -19,4 +19,11 @@ class ZhihuspiderItem(scrapy.Item):
     position = scrapy.Field()
     education = scrapy.Field()
     major = scrapy.Field()
+    follower_num = scrapy.Field()
+    followee_num = scrapy.Field()
+    ask_num = scrapy.Field()
+    answer_num = scrapy.Field()
+    post_num = scrapy.Field()
+    agree_num = scrapy.Field()
+    thanks_num = scrapy.Field()
     pass
